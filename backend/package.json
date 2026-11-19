@@ -1,0 +1,20 @@
+{
+  "name": "cornejo-cullen-backend",
+  "version": "1.0.0",
+  "description": "Backend API REST - E-commerce de Discos de Vinilo (MERN - Parcial 2 Aplicaciones Híbridas)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "seed": "node seed/seed.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.1"
+  }
+}
